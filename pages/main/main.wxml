@@ -1,0 +1,39 @@
+<!-- 个人信息，问好 -->
+<view class="customer-info">
+  你好
+</view>
+
+<!-- 轮播图 -->
+<view class="swiper">
+  <swiper
+    autoplay 
+    circular
+    interval="2500"
+    layout-type="transformer"
+    transformer-type="scaleAndFade"
+    previous-margin="30px"
+		next-margin="30px"
+  >
+    <swiper-item>
+      1
+    </swiper-item>
+    <swiper-item>
+      2
+    </swiper-item>
+    <swiper-item>
+      3
+    </swiper-item>
+  </swiper>
+</view>
+
+<!-- 感兴趣的医生 -->
+<view class="all-doctor"></view>
+
+<!-- 医生列表 -->
+<view class="doctor-list"></view>
+
+<!-- 顶尖医院 -->
+<view class="all-hospital"></view>
+
+<!-- 医院列表 -->
+<view class="hospital-list"></view>

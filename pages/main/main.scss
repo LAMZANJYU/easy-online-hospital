@@ -1,0 +1,21 @@
+page {
+  height: 100vh;
+  background-color: #e9eef5;
+}
+
+.swiper {
+  swiper {
+    height: 360rpx;
+    background-color: #5281c2;
+  }
+  
+  swiper-item {
+    &:first-child{
+      background-color: #ad863d;
+    }
+
+    &:last-child{
+      background-color: #b93baf;
+    }
+  }
+}

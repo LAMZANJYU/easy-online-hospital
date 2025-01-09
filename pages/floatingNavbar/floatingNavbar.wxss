@@ -1,0 +1,29 @@
+.floating-navbar {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #0080FF;
+  border-radius: 50px;
+  padding: 10px 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 16px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.navbar-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}

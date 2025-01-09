@@ -1,0 +1,47 @@
+{
+  "entryPagePath": "pages/main/main",
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/main/main",
+    "pages/floatingNavbar/floatingNavbar"
+  ],
+  "window": {
+    "navigationBarBackgroundColor":"#efefef",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "default",
+    "homeButton": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#2f8af5",
+    "backgroundColor": "#E2EAF4",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "主页",
+        "iconPath": "assets/main.png",
+        "selectedIconPath": "assets/main (select).png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "assets/my.png",
+        "selectedIconPath": "assets/my（select）.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "renderer": "skyline",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true
+    }
+  },
+  "componentFramework": "glass-easel" 
+  
+}

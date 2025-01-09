@@ -1,0 +1,8 @@
+<view class="floating-navbar">
+  <view class="navbar-container">
+    <button class="navbar-button" bindtap="onButtonClick">首页</button>
+    <button class="navbar-button" bindtap="onButtonClick">分类</button>
+    <button class="navbar-button" bindtap="onButtonClick">购物车</button>
+    <button class="navbar-button" bindtap="onButtonClick">我的</button>
+  </view>
+</view>
