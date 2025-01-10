@@ -3,6 +3,10 @@
   你好
 </view>
 
+<view class="hello">
+  <text class="hello-msg">你今天好吗？</text>
+</view>
+
 <!-- 轮播图 -->
 <view class="swiper">
   <swiper
@@ -27,7 +31,10 @@
 </view>
 
 <!-- 感兴趣的医生 -->
-<view class="all-doctor"></view>
+<view class="all-doctor">
+  <view class="msg-doctor-all">感兴趣的医生</view>
+  <view class="msg-doctor-all">查看全部</view>
+</view>
 
 <!-- 医生列表 -->
 <view class="doctor-list"></view>
