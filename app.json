@@ -1,16 +1,16 @@
 {
   "entryPagePath": "pages/main/main",
   "pages": [
-    "pages/index/index",
     "pages/my/my",
     "pages/main/main",
-    "pages/floatingNavbar/floatingNavbar"
+    "pages/allDoctors/allDoctors"
   ],
   "window": {
-    "navigationBarBackgroundColor":"#efefef",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "自定义导航栏",
     "navigationBarTextStyle": "black",
-    "navigationStyle": "default",
-    "homeButton": true
+    "navigationStyle": "custom"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
@@ -35,7 +35,9 @@
       }
     ]
   },
-  "usingComponents": {},
+  "usingComponents": {
+    "navBar": "/components/navBar/navBar"
+  },
   "renderer": "skyline",
   "rendererOptions": {
     "skyline": {
@@ -43,5 +45,4 @@
     }
   },
   "componentFramework": "glass-easel" 
-  
 }

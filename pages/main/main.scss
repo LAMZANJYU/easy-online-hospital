@@ -10,7 +10,7 @@ page {
 .swiper {
   border-radius: 20rpx;
   swiper {
-    height: 360rpx;
+    height: 250rpx;
   }
   
   swiper-item {
@@ -29,6 +29,11 @@ page {
   }
 }
 
+.swiper image {
+  height: 250rpx;
+  border-radius: 20rpx;
+}
+
 .hello-msg {
   display: flex;
   padding: 16rpx;
@@ -45,5 +50,45 @@ page {
 }
 
 .msg-doctor-all {
-  font-size: 35rpx;
+  font-size: 30rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+
+.doctor-list {
+  height: 300rpx;
+  white-space: nowrap;
+}
+
+/* 父容器样式 */
+.scroll-doctor {
+  display: flex;          /* 使用 Flex 布局 */
+  flex-direction: row;    /* 子元素水平排列 */
+  overflow-x: auto;       /* 启用水平滚动 */
+  height: 300rpx;
+  overflow: hidden;
+}
+
+/* 子容器样式 */
+.doctor-item {
+  margin-right: 25px;     /* 每个子元素的间距 */
+  text-align: center;     /* 内容水平居中 */
+  display: inline-block;  
+  flex-direction: column; /* 子元素垂直排列 */
+  align-items: center;    /* 子元素水平居中 */
+  justify-content: center; /* 子元素垂直居中 */
+  
+}
+
+/* 图片样式 */
+.doctor-item image {
+  width: 225rpx;            /* 图片宽度 */
+  height: 300rpx;           /* 图片高度 */
+}
+
+::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+  color: transparent;
 }
