@@ -1,6 +1,0 @@
-<view style="height: 0rpx;">
-<navBar title='全部医生' background='rgba(0,0,0,0)' back="{{true}}" bindback="handlerGobackClick"></navBar>
-</view>
-<view>
-<view class="img"/>
-</view>

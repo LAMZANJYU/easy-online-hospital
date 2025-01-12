@@ -3,6 +3,6 @@
   "projectname": "easy-online-hospital",
   "setting": {
     "compileHotReLoad": true,
-    "skylineRenderEnable": true
+    "skylineRenderEnable": false
   }
 }

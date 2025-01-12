@@ -1,8 +1,5 @@
 {
-  "navigationBarTextStyle": "white",
-  "navigationStyle": "custom",
-  "backgroundColor": "#f8f8f8",
-  "backgroundColorTop": "#00000",
-  "backgroundColorBottom": "#f8f8f8",
-  "usingComponents": {}
+  "usingComponents": {},
+  "navigationBarTextStyle":"black",
+  "navigationBarTitleText": "全部医生"
 }

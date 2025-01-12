@@ -1,0 +1,16 @@
+{
+  "name": "easy-online-hospital",
+  "version": "1.0.0",
+  "description": "第一次写微信小程序",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vant/weapp": "^1.11.7",
+    "vant-weapp": "^0.5.29"
+  }
+}

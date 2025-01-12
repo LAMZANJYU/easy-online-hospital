@@ -47,6 +47,8 @@ page {
   display: flex;
   justify-content: space-between;
   flex-flow: row nowrap;
+  padding-top: 35rpx;
+  padding-bottom: 20rpx;
 }
 
 .msg-doctor-all {
@@ -91,4 +93,20 @@ page {
   width: 0;
   height: 0;
   color: transparent;
+}
+
+.hospital-list {
+  display: flex;
+  flex-direction: column; /* 设置为列布局 */
+  justify-content: center; /* 垂直居中 */
+  align-items: center; /* 水平居中 */
+}
+
+.hospital-item{
+  image{
+    border-radius: 25rpx; 
+    height: 300rpx;
+    width: 700rpx;
+    margin: 20rpx;
+  }
 }

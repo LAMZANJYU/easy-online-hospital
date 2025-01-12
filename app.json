@@ -3,16 +3,15 @@
   "pages": [
     "pages/my/my",
     "pages/main/main",
-    "pages/allDoctors/allDoctors"
+    "pages/allDoctors/allDoctors",
+    "pages/allHospital/allHospital"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "自定义导航栏",
     "navigationBarTextStyle": "black",
-    "navigationStyle": "custom"
+    "navigationStyle": "default"
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json",
   "lazyCodeLoading": "requiredComponents",
   "tabBar": {
@@ -23,13 +22,21 @@
     "list": [
       {
         "pagePath": "pages/main/main",
-        "text": "主页",
         "iconPath": "assets/main.png",
         "selectedIconPath": "assets/main (select).png"
       },
       {
+        "pagePath": "pages/allDoctors/allDoctors",
+        "iconPath": "assets/my.png",
+        "selectedIconPath": "assets/my（select）.png"
+      },
+      {
+        "pagePath": "pages/allHospital/allHospital",
+        "iconPath": "assets/my.png",
+        "selectedIconPath": "assets/my（select）.png"
+      },
+      {
         "pagePath": "pages/my/my",
-        "text": "我的",
         "iconPath": "assets/my.png",
         "selectedIconPath": "assets/my（select）.png"
       }
@@ -38,7 +45,6 @@
   "usingComponents": {
     "navBar": "/components/navBar/navBar"
   },
-  "renderer": "skyline",
   "rendererOptions": {
     "skyline": {
       "defaultDisplayBlock": true
