@@ -1,8 +1,4 @@
 <!-- 个人信息，问好 -->
-<view style="height: 100rpx;">
-
-</view>
-
 <view class="customer-info">
   你好
 </view>
@@ -40,7 +36,8 @@
   <navigator 
   class="msg-doctor-all" 
   style="color: rgb(51, 136, 216);" 
-  url="/pages/allDoctors/allDoctors">
+  url="/pages/allDoctors/allDoctors"
+  open-type="navigate">
   查看全部
   </navigator>
 </view>
@@ -67,7 +64,32 @@
 </view>
 
 <!-- 顶尖医院 -->
-<view class="all-hospital"></view>
+<view class="all-doctor">
+  <view class="msg-doctor-all">顶尖医院</view>
+  <navigator 
+  class="msg-doctor-all" 
+  style="color: rgb(51, 136, 216);" 
+  url="/pages/allHospital/allHospital"
+  open-type="navigate">
+  查看全部
+  </navigator>
+</view>
 
 <!-- 医院列表 -->
-<view class="hospital-list"></view>
+<view class="hospital-list">
+    <view class="hospital-item">
+      <image src="/../static/hospital.jpg"></image>
+    </view>
+    <view class="hospital-item">
+      <image src="/../static/hospital.jpg"></image>
+    </view>
+    <view class="hospital-item">
+      <image src="/../static/hospital.jpg"></image>
+    </view>
+    <view class="hospital-item">
+      <image src="/../static/hospital.jpg"></image>
+    </view>
+    <view class="hospital-item">
+      <image src="/../static/hospital.jpg"></image>
+    </view>
+</view>

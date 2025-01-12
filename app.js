@@ -5,4 +5,5 @@ App({
         Page = page;
     },
     //globalData: {}
+    
 })
