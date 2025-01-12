@@ -6,7 +6,8 @@
     "pages/doctors/doctors",
     "pages/allHospital/allHospital",
     "pages/doctorInfo/doctorInfo",
-    "pages/hospitalInfo/hospitalInfo"
+    "pages/hospitalInfo/hospitalInfo",
+    "pages/registration/registration"
   ],
   "window": {
     "backgroundTextStyle": "light",
