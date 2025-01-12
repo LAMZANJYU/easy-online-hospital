@@ -9,29 +9,25 @@ page {
 
 .swiper {
   border-radius: 20rpx;
+  width: 100%;
+  
   swiper {
+    display: flex;
     height: 250rpx;
+    width: 100%;
   }
   
   swiper-item {
+    display: flex;
+    justify-content: center;
     border-radius: 20rpx;
-    &:first-child{
-      background-color: #ad863d;
-    }
-
-    &:nth-child(2){
-      background-color: #32b152;
-    }
-
-    &:last-child{
-      background-color: #b93baf;
-    }
   }
 }
 
 .swiper image {
   height: 250rpx;
   border-radius: 20rpx;
+  width: 700rpx;
 }
 
 .hello-msg {
@@ -92,3 +88,4 @@ page {
   height: 0;
   color: transparent;
 }
+

@@ -17,10 +17,9 @@
     autoplay 
     circular
     interval="4000"
-    layout-type="transformer"
-    transformer-type="scaleAndFade"
-    previous-margin="30px"
-		next-margin="30px"
+    indicator-dots="true"
+    previous-margin="30rpx"
+    next-margin="30rpx"
   >
     <swiper-item>
       <image src="../../static/banner.png"/>
