@@ -1,0 +1,61 @@
+<!--pages/doctors/doctors.wxml-->
+<view class="search">
+  <van-search
+  value="{{ value }}"
+  label="医生"
+  placeholder="请输入搜索关键词"
+  use-action-slot
+  bind:change="onChange"
+  bind:search="onSearch"
+  style="width: 680rpx; height: 100rpx;"
+  background="#e9eef5"
+>
+  <view slot="action" bind:tap="onClick">搜索</view>
+</van-search>
+
+</view>
+
+<!-- 感兴趣的医生 -->
+<view class="all-doctor">
+  <view class="msg-doctor-all">感兴趣的医生</view>
+</view>
+<!-- 医生列表 -->
+<view class="doctor-list">
+  <scroll-view scroll-x="true" style="width: 100%;" class="scroll-doctor">
+    <view class="doctor-item">
+      <image src="../../static/doctor.png"></image>
+    </view>
+    <view class="doctor-item">
+      <image src="../../static/doctor.png"></image>
+    </view>
+    <view class="doctor-item">
+      <image src="../../static/doctor.png"></image>
+    </view>
+    <view class="doctor-item">
+      <image src="../../static/doctor.png"></image>
+    </view>
+    <view class="doctor-item">
+      <image src="../../static/doctor.png"></image>
+    </view>
+  </scroll-view>
+</view>
+
+<view style=" padding: 20rpx; padding-left: 50rpx;">全部医生</view>
+
+<view class="doctor-list2">
+  <view>
+    <image src="/../static/doctor-list.png" mode="" style="border-radius: 30rpx; width: 680rpx; height: 250rpx; margin-bottom: 10rpx;"/>
+  </view>
+  <view>
+    <image src="/../static/doctor-list.png" mode="" style="border-radius: 30rpx; width: 680rpx; height: 250rpx; margin-bottom: 10rpx;"/>
+  </view>
+  <view>
+    <image src="/../static/doctor-list.png" mode="" style="border-radius: 30rpx; width: 680rpx; height: 250rpx; margin-bottom: 10rpx;"/>
+  </view>
+  <view>
+    <image src="/../static/doctor-list.png" mode="" style="border-radius: 30rpx; width: 680rpx; height: 250rpx; margin-bottom: 10rpx;"/>
+  </view>
+  <view>
+    <image src="/../static/doctor-list.png" mode="" style="border-radius: 30rpx; width: 680rpx; height: 250rpx; margin-bottom: 10rpx;"/>
+  </view>
+</view>

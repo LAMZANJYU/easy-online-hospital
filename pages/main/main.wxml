@@ -1,6 +1,8 @@
 <!-- 个人信息，问好 -->
 <view class="customer-info">
-  你好
+  <button class="btn" open-type="chooseAvatar" bindchooseavatar="chooseAvatar">
+    <image src="{{ avatarUrl }}" class="avatar"></image>
+  </button>
 </view>
 
 <view class="hello">
@@ -36,8 +38,8 @@
   <navigator 
   class="msg-doctor-all" 
   style="color: rgb(51, 136, 216);" 
-  url="/pages/allDoctors/allDoctors"
-  open-type="navigate">
+  url="/pages/doctors/doctors"
+  open-type="switchTab">
   查看全部
   </navigator>
 </view>
@@ -45,9 +47,13 @@
 <!-- 医生列表 -->
 <view class="doctor-list">
   <scroll-view scroll-x="true" style="width: 100%;" class="scroll-doctor">
+  
     <view class="doctor-item">
-      <image src="../../static/doctor.png"></image>
+      <navigator url="/pages/doctorInfo/doctorInfo">
+        <image src="../../static/doctor.png"></image>
+      </navigator>
     </view>
+  
     <view class="doctor-item">
       <image src="../../static/doctor.png"></image>
     </view>
@@ -70,7 +76,7 @@
   class="msg-doctor-all" 
   style="color: rgb(51, 136, 216);" 
   url="/pages/allHospital/allHospital"
-  open-type="navigate">
+  open-type="switchTab">
   查看全部
   </navigator>
 </view>

@@ -1,0 +1,20 @@
+/* pages/doctorInfo/doctorInfo.wxss */
+page {
+  height: 100vh;
+  background-color: #e9eef5;
+  padding: 16rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.doctor-picture{
+  border-radius: 20%;
+  height: 300rpx;
+  width: 300rpx;
+}
+
+.doctor-base-info{
+  display: flex;
+  flex-direction: row;
+}

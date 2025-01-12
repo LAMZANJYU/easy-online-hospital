@@ -37,7 +37,7 @@ page {
 .hello-msg {
   display: flex;
   padding: 16rpx;
-  padding-left: 52rpx;
+  padding-left: 28rpx;
   border-radius: 20rpx;
   font-size: 45rpx;
 }
@@ -109,4 +109,25 @@ page {
     width: 700rpx;
     margin: 20rpx;
   }
+}
+
+.btn{
+  background-color: transparent;
+}
+
+.btn::after{
+  border: none;
+}
+
+.avatar{
+  display: flex;
+  justify-content: left;
+  height: 100rpx;
+  width: 100rpx;
+  border-radius: 20%;
+
+}
+
+.customer-info{
+  justify-content: left;
 }

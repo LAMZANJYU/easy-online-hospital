@@ -1,3 +1,33 @@
 <!--pages/my/my.wxml-->
-<text>pages/my/my.wxml</text>
-<van-button type="primary">按钮</van-button>
+<view style="display: flex; margin: 20rpx;">
+  <view style="margin: 10rpx;">
+    头像
+  </view>
+  <view style="margin: 10rpx;">
+    <view>名字</view>
+    <view>个人信息</view>
+  </view>
+</view>
+
+<view class="list-parent">
+  <view class="list">
+    <view><van-icon name="/../assets/收藏.png" size="70rpx"/></view>
+    <view style="font-size: 50rpx; margin-left: 30rpx;">收藏医生</view>
+  </view>
+  <view class="list">
+    <view><van-icon name="/../assets/挂号.png" size="70rpx"/></view>
+    <view style="font-size: 50rpx; margin-left: 30rpx;">挂号</view>
+  </view>
+  <view class="list">
+    <view><van-icon name="/../assets/数据.png" size="70rpx"/></view>
+    <view style="font-size: 50rpx; margin-left: 30rpx;">订单数据</view>
+  </view>
+  <view class="list">
+    <view><van-icon name="/../assets/设置.png" size="70rpx"/></view>
+    <view style="font-size: 50rpx; margin-left: 30rpx;">设置</view>
+  </view>
+  <view class="list">
+    <view><van-icon name="/../assets/帮助.png" size="70rpx"/></view>
+    <view style="font-size: 50rpx; margin-left: 30rpx;">帮助</view>
+  </view>
+</view>
