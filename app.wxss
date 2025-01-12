@@ -8,3 +8,17 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+scroll-view ::-webkit-scrollbar {
+
+  appearance: none;
+
+  color: transparent;
+
+  display: none;
+
+  width: 0;
+
+  height: 0;
+
+}

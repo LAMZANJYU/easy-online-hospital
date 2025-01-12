@@ -1,6 +1,14 @@
 <!-- 个人信息，问好 -->
+<view style="height: 100rpx;">
+
+</view>
+
 <view class="customer-info">
   你好
+</view>
+
+<view class="hello">
+  <text class="hello-msg">你今天好吗？</text>
 </view>
 
 <!-- 轮播图 -->
@@ -8,29 +16,55 @@
   <swiper
     autoplay 
     circular
-    interval="2500"
+    interval="4000"
     layout-type="transformer"
     transformer-type="scaleAndFade"
     previous-margin="30px"
 		next-margin="30px"
   >
     <swiper-item>
-      1
+      <image src="../../static/banner.png"/>
     </swiper-item>
     <swiper-item>
-      2
+      <image src="../../static/banner.png"/>
     </swiper-item>
     <swiper-item>
-      3
+      <image src="../../static/banner.png"/>
     </swiper-item>
   </swiper>
 </view>
 
 <!-- 感兴趣的医生 -->
-<view class="all-doctor"></view>
+<view class="all-doctor">
+  <view class="msg-doctor-all">感兴趣的医生</view>
+  <navigator 
+  class="msg-doctor-all" 
+  style="color: rgb(51, 136, 216);" 
+  url="/pages/allDoctors/allDoctors">
+  查看全部
+  </navigator>
+</view>
 
 <!-- 医生列表 -->
-<view class="doctor-list"></view>
+<view class="doctor-list">
+  <scroll-view scroll-x="true" style="width: 100%;" class="scroll-doctor">
+    <view class="doctor-item">
+      <image src="../../static/doctor.png"></image>
+    </view>
+    <view class="doctor-item">
+      <image src="../../static/doctor.png"></image>
+    </view>
+    <view class="doctor-item">
+      <image src="../../static/doctor.png"></image>
+    </view>
+    <view class="doctor-item">
+      <image src="../../static/doctor.png"></image>
+    </view>
+    <view class="doctor-item">
+      <image src="../../static/doctor.png"></image>
+    </view>
+  </scroll-view>
+</view>
 
 <!-- 顶尖医院 -->
 <view class="all-hospital"></view>
