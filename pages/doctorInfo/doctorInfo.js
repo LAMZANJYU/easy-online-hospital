@@ -1,20 +1,11 @@
-// pages/main/main.js
+// pages/doctorInfo/doctorInfo.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    avatarUrl:'/../assets/吃瓜.png'
-  },
 
-  // 获取微信头像
-  chooseAvatar(event){
-    console.log(event)
-    const {avatarUrl} = event.detail
-    this.setData({
-      avatarUrl
-    })
   },
 
   /**

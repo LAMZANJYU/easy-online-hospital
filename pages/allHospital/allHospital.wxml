@@ -1,3 +1,36 @@
-<!--pages/allHospital/allHospital.wxml-->
+<!--pages/doctors/doctors.wxml-->
+<view class="search">
+  <van-search
+  value="{{ value }}"
+  label="医院"
+  placeholder="请输入搜索关键词"
+  use-action-slot
+  bind:change="onChange"
+  bind:search="onSearch"
+  style="width: 680rpx; height: 100rpx;"
+  background="#e9eef5"
+>
+  <view slot="action" bind:tap="onClick">搜索</view>
+</van-search>
 
-<text>pages/allHospital/allHospital.wxml</text>
+</view>
+
+<view style=" padding: 20rpx; padding-left: 50rpx;">全部医院</view>
+
+<view class="doctor-list2">
+  <view>
+    <image src="/../static/hospital-list.png" mode="" style="border-radius: 30rpx; width: 680rpx; height: 200rpx; margin-bottom: 20rpx;"/>
+  </view>
+  <view>
+    <image src="/../static/hospital-list.png" mode="" style="border-radius: 30rpx; width: 680rpx; height: 200rpx; margin-bottom: 20rpx;"/>
+  </view>
+  <view>
+    <image src="/../static/hospital-list.png" mode="" style="border-radius: 30rpx; width: 680rpx; height: 200rpx; margin-bottom: 20rpx;"/>
+  </view>
+  <view>
+    <image src="/../static/hospital-list.png" mode="" style="border-radius: 30rpx; width: 680rpx; height: 200rpx; margin-bottom: 20rpx;"/>
+  </view>
+  <view>
+    <image src="/../static/hospital-list.png" mode="" style="border-radius: 30rpx; width: 680rpx; height: 200rpx; margin-bottom: 20rpx;"/>
+  </view>
+</view>

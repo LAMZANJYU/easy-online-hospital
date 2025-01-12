@@ -1,0 +1,26 @@
+page {
+  height: 100vh;
+  background-color: #e9eef5;
+  padding: 16rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.list{
+  display: flex; 
+  justify-content: left; 
+  border-radius: 20rpx;
+  background-color: white;
+  width: 600rpx;
+  padding: 5rpx;
+  padding-left: 50rpx;
+  margin-top: 50rpx;;
+  margin-bottom: 10rpx;
+}
+.list-parent{
+  display: flex;
+  flex-direction: column; /* 设置为列布局 */
+  justify-content: center; /* 垂直居中 */
+  align-items: center; /* 水平居中 */
+}

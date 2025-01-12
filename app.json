@@ -1,10 +1,12 @@
 {
   "entryPagePath": "pages/main/main",
   "pages": [
-    "pages/my/my",
     "pages/main/main",
-    "pages/allDoctors/allDoctors",
-    "pages/allHospital/allHospital"
+    "pages/my/my",
+    "pages/doctors/doctors",
+    "pages/allHospital/allHospital",
+    "pages/doctorInfo/doctorInfo",
+    "pages/hospitalInfo/hospitalInfo"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -26,14 +28,14 @@
         "selectedIconPath": "assets/main (select).png"
       },
       {
-        "pagePath": "pages/allDoctors/allDoctors",
-        "iconPath": "assets/my.png",
-        "selectedIconPath": "assets/my（select）.png"
+        "pagePath": "pages/doctors/doctors",
+        "iconPath": "assets/doctor.png",
+        "selectedIconPath": "assets/doctor(select).png"
       },
       {
         "pagePath": "pages/allHospital/allHospital",
-        "iconPath": "assets/my.png",
-        "selectedIconPath": "assets/my（select）.png"
+        "iconPath": "assets/hospital.png",
+        "selectedIconPath": "assets/hospital(select).png"
       },
       {
         "pagePath": "pages/my/my",
