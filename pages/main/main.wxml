@@ -84,7 +84,10 @@
 <!-- 医院列表 -->
 <view class="hospital-list">
     <view class="hospital-item">
+    <navigator url="/pages/registration/registration" open-type="reLaunch">
       <image src="/../static/hospital.jpg"></image>
+    </navigator>
+      
     </view>
     <view class="hospital-item">
       <image src="/../static/hospital.jpg"></image>

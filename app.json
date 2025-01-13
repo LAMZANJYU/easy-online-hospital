@@ -6,7 +6,8 @@
     "pages/doctors/doctors",
     "pages/allHospital/allHospital",
     "pages/doctorInfo/doctorInfo",
-    "pages/hospitalInfo/hospitalInfo"
+    "pages/hospitalInfo/hospitalInfo",
+    "pages/registration/registration"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -24,6 +25,11 @@
     "list": [
       {
         "pagePath": "pages/main/main",
+        "iconPath": "assets/main.png",
+        "selectedIconPath": "assets/main (select).png"
+      },
+      {
+        "pagePath": "pages/registration/registration",
         "iconPath": "assets/main.png",
         "selectedIconPath": "assets/main (select).png"
       },

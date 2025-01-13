@@ -1,2 +1,25 @@
 <!--pages/hospitalInfo/hospitalInfo.wxml-->
-<text>pages/hospitalInfo/hospitalInfo.wxml</text>
+<view class="hospital-container">
+  <!-- 医院基本信息 -->
+  <van-card
+    title="{{hospitalInfo.name}}"
+    desc="{{hospitalInfo.level}}"
+    thumb="{{ hospitalInfo.imageUrl }}"
+  >
+    <view slot="footer">
+      <van-tag type="primary">{{hospitalInfo.type}}</van-tag>
+      <text>{{hospitalInfo.address}}</text>
+    </view>
+  </van-card>
+
+  <!-- 科室列表 -->
+  <van-cell-group title="选择科室">
+    <van-tree-select
+      items="{{ departments }}"
+      main-active-index="{{ mainActiveIndex }}"
+      active-id="{{ activeId }}"
+      bind:click-nav="onClickNav"
+      bind:click-item="onClickDepartment"
+    />
+  </van-cell-group>
+</view>

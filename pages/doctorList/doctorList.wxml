@@ -1,0 +1,20 @@
+<view class="doctor-list">
+  <van-cell-group title="选择医生">
+    <van-card
+      wx:for="{{ doctors }}"
+      wx:key="id"
+      title="{{ item.name }}"
+      desc="{{ item.title }}"
+      thumb="{{ item.avatar }}"
+    >
+      <view slot="footer">
+        <van-button size="small" type="primary" bind:click="onSelectDoctor" data-id="{{item.id}}">
+          选择医生
+        </van-button>
+      </view>
+      <view slot="tags">
+        <van-tag type="primary">{{ item.specialty }}</van-tag>
+      </view>
+    </van-card>
+  </van-cell-group>
+</view> 
